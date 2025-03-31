@@ -80,4 +80,11 @@
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+  }
+
+  .firstpg button:hover{
+    background-color: aliceblue;
+    color: grey;
+    transition: ease-out 0.5s;
   }

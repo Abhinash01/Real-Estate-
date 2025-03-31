@@ -88,3 +88,10 @@
     color: grey;
     transition: ease-out 0.5s;
   }
+
+
+  .secondpg .heading h4{
+    margin-left:  130px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }

@@ -94,4 +94,68 @@
     margin-left:  130px;
     margin-top: 60px;
     margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: lighter;
+    display: inline-block;
   }
+
+  .secondpg .data1{
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px; 
+   }
+
+  .secondpg .data1 .box{
+    width: 250px;
+    padding: 15px;
+    background-color: white;
+    margin-left: 95px;
+  }
+  .title {
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 14px;
+    color: gray;
+}
+.address {
+    margin-top: 5px;
+    font-size: 16px;
+}
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.secondpg .data1 .box:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(4, 0, 0);
+}
+
+.secondpg .imgcards{
+    display: flex;
+    justify-content: space-around; 
+    gap: 20px;
+    padding: 20px;
+}
+
+.secondpg .imgcards .imgcard{
+    height: 400px;
+    width: 500px;
+    background-color: white;  
+    margin-left: 95px;
+    object-fit: contain;
+    
+}
+
+.secondpg .imgcards .imgcard img{
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.secondpg .imgcards .imgcard:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(4, 0, 0);
+}

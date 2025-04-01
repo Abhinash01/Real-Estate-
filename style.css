@@ -160,3 +160,14 @@
     cursor: pointer;
     box-shadow: 0 2px 4px rgb(4, 0, 0);
 }
+
+.thirdpg{
+    background-color: rgb(199, 193, 193);
+    height: 100vh;
+    width: 100%;
+}
+
+.thirdpg img{
+    height: 200px;
+    width: 200px;
+}

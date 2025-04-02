@@ -89,20 +89,19 @@
     transition: ease-out 0.5s;
   }
 
-
   .secondpg .heading h4{
-    margin-left:  130px;
+    margin-left:  100px;
     margin-top: 60px;
     margin-bottom: 40px;
     font-size: 45px;
     font-weight: lighter;
-    display: inline-block;
+    
   }
   
 
   .secondpg .data1{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     gap: 20px; 
    }
 
@@ -110,7 +109,7 @@
     width: 250px;
     padding: 15px;
     background-color: white;
-    margin-left: 95px;
+    
   }
   .title {
     font-weight: bold;
@@ -136,7 +135,7 @@
 
 .secondpg .imgcards{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     gap: 20px;
     padding: 20px;
 }
@@ -145,15 +144,15 @@
     height: 400px;
     width: 500px;
     background-color: white;  
-    margin-left: 95px;
-    object-fit: contain;
+    
+    
     
 }
 
 .secondpg .imgcards .imgcard img{
     width: 100%;
     height: 400px; 
-    object-fit: cover;
+    
 }
 
 .secondpg .imgcards .imgcard:hover{
@@ -161,12 +160,14 @@
     box-shadow: 0 2px 4px rgb(4, 0, 0);
 }
 
+
+ 
+
 .thirdpg{
     background-color: rgb(199, 193, 193);
     height: 100vh;
     width: 100%;
-    padding-top: 90px;
-    padding-left: 150px;
+    
 }
 
 .thirdpg .imgbox{
@@ -183,6 +184,7 @@
 .thirdpg .content{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 
 .content .textarea{
@@ -204,6 +206,36 @@
     font-weight: bold;
     padding: 10px 30px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
+  
+}
+.content .textarea .textbutton button:hover{
+  color: rgb(70, 65, 65);
+  background-color: aliceblue;
+  transition: ease-out 0.5s;
+}
+
+.fourthpg{
+  background-color: rgb(148, 136, 136);
+  height: 100vh;
+  width: 100%;
+}
+
+.fourthpg p{
+  font-size: 60px;
+  padding-top: 80px;
+  color: aliceblue;
+}
+
+.fourthpg .fst{
+  padding-left: 40%;
+  
+}
+
+.fourthpg .snd{
+  padding-left: 32%;
+  padding-top: 0%;
 }
 
 

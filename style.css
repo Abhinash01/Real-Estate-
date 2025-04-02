@@ -238,6 +238,37 @@
   padding-top: 0%;
 }
 
+.fourthpg .subhead {
+  margin-top: 50px;
+  
+}
 
+.fourthpg .subhead h4{
+  font-size: 40px;
+  margin-left: 450px;
+}
+.fourthpg .subhead h4 span{
+  font-size: 30px;
+  margin-left: 100px;
+  color: aliceblue;
+}
 
+.fourthpg .subhead .main1{
+  margin-left: 50px;
+}
 
+.fourthpg .subhead .main6 {
+  margin-left: 175px;
+}
+.fourthpg .subhead .main4{
+  margin-left: 170px;
+}
+.fourthpg .subhead .main5{
+  margin-left: 500px;
+}
+.fourthpg .subhead .main3{
+  margin-left: 500px;
+}
+.fourthpg .subhead .main7{
+  margin-left: 470px;
+}
